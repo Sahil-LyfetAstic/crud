@@ -1,0 +1,28 @@
+{
+  "name": "project_structure",
+  "version": "1.0.0",
+  "description": "standard express project setup",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "export NODE_ENV=DEVELOPMENT&& nodemon server.js"
+  },
+  "author": "sahil LyfetAstic",
+  "license": "ISC",
+  "dependencies": {
+    "cookie": "^0.4.1",
+    "cookie-parser": "^1.4.6",
+    "cross-env": "^7.0.3",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.1",
+    "express-handlebars": "^6.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.13",
+    "parser": "^0.1.4",
+    "validator": "^13.7.0"
+  }
+}
